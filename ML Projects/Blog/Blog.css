@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 251, 245);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 180px;
+}
+.head b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    margin: 10px 0px;
+}
+.head p{
+    font-size: 15px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
+.head em{
+    color: white;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+.card1{
+    width: 900px;
+    height: 550px;
+    margin: 16px;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+}
+.chead1, .cmain1{
+    padding: 15px;
+}
+.card1 img{
+    width: 100%;
+    height: 283px;
+}
+.chead1 b{
+    font-size: 24px;
+}
+.chead1 p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cmain p{
+    font-size: 15px;
+}
+.chead1 b, .chead1 p, .cmain1 p, .cfoot1{
+    font-family: "Raleway", sans-serif;
+}
+.cfoot1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+}
+.cfoot1 a{
+    border: 1px solid rgb(189, 189, 189);
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 15px;
+}
+.cfoot1 a:hover{
+    background-color: rgb(189, 189, 189);
+}
+.card2{
+    width: 435px;
+    height: 430px;
+    margin: 15px;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+}
+.card2 img{
+    width: 100%;
+    height: 272px;
+}
+.card2 p{
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    padding: 12px;
+}
+.card2 h4{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    padding: 12px;
+}
+.card3{
+    width: 435px;
+    height: 399px;
+    margin: 15px;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+}
+.card3h{
+    width: 100%;
+    height: 79px;
+    background-color: rgb(240, 240, 240);
+}
+.card3box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.card3h p{
+    height: 63px;
+    font-family : "Raleway", sans-serif;
+    padding: 8px 16px;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family : "Raleway", sans-serif;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    width: 100%;
+    height: 79px;
+}
+.box:hover{
+    background-color: rgb(189, 189, 189);
+}
+.box img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 50px;
+    height: auto;
+}
+.boxt{
+    width: 100%;
+}
+.boxt b{
+    font-size: 18px;
+    width: 30px;
+    display: flex;
+}
+.boxt p{
+    display: flex;
+    font-size: 15px;
+}
+.card4{
+    width: 435px;
+    height: 210px;
+    margin: 15px;
+    box-shadow: 1px 1px 10px;
+    background-color: white;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(110, 110, 110);
+}
+.foot p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family : "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

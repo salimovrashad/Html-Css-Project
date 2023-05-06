@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+}
+.left{
+    width: 15%;
+}
+.mid{
+    width: 70%;
+}
+.mid a{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 30px;
+    color: gray;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.mid a:hover{
+    color: white;
+    background-color: gray;
+}
+.right{
+    width: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.right a{
+    text-decoration: none;
+    padding: 7px 15px;
+    font-size: 19px;
+    color: gray;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.right a:hover{
+    color: white;
+    background-color: #2596be;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    padding-top: 25px;
+}
+.headerleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+}
+.headerleft p{
+    width: 350px;
+    font-size: 28px;
+    color: gray;
+}
+.headerleft a{
+    text-decoration: none;
+    font-size: 22px;
+    width: 120px;
+    text-align: center;
+    color: #2596be;
+    padding: 12px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.headerleft a:hover{
+    color: white;
+    background-color: #2596be;
+}
+.headerright{
+    width: 635px;
+    padding-left: 15px;
+}
+.main p{
+    color: gray;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 19px;
+}
+.mainthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 290px;
+    height: 350px;
+    box-shadow: 1px 1px 12px gray;
+    border-radius: 15px;
+    margin: 35px;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.chead img{
+    border-radius: 15px;
+    width: 220px;
+    height: 220px;
+}
+.ctext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+.ctext b{
+    padding-bottom: 18px;
+}
+.ctext p{
+    color: gray;
+}
+.card:hover{
+    margin-top: 20px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-image: url(../Metalife/Images/WhatsApp_Image_2022-03-11_at_14.24.52-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+}
+.bleft{
+    border: 1px solid yellow;
+    border-radius: 15px;
+    margin: 30px;
+    width: 380px;
+    height: 650px;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+}
+.bleft b{
+    font-size: 20px;
+    padding: 15px;
+}
+.bleft p{
+    font-size: 15px;
+    padding: 15px;
+}
+.bleft img{
+    width: 380px;
+    height: 450px;
+    border-radius: 15px;
+}
+.bright{
+    width: 166px;
+    font-size: 18px;
+    margin: 30px;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 20px;
+    width: 80%;
+    height: 190px;
+}
+.footer img{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+.footer p{
+    margin-left: 60px;
+    font-size: 18px;
+    font-family : "Frutiger Neue W02 Book", Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: 110px;
+    color: grey;
+}
+.topleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+}
+.topright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}
+.topmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+}
+.topleft b{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.topmain a{
+    text-decoration: none;
+    color: grey;
+}
+.toplb{
+    box-shadow: 2px 2px 8px gray;
+    width: 65px;
+    height: 65px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toprb{
+    box-shadow: 2px 2px 8px gray;
+    width: 65px;
+    height: 65px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toplb:hover, .toprb:hover{
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(255, 186, 130);
+}
+.topmb{
+    box-shadow: 2px 2px 8px gray;
+    width: 140px;
+    height: 65px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topmb:hover{
+    background-color: white;
+    color: rgb(255, 186, 130);
+    box-shadow: 2px 2px 8px rgb(255, 186, 130);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.cardone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px gray;
+    width: 950px;
+    height: 300px;
+    margin: 35px;
+    margin-bottom: 55px;
+}
+.oneright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 85%;
+    position: relative;
+}
+.oneright p{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: grey;
+}
+.oneright b{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(81, 81, 81);
+}
+.oneright a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: rgb(255, 186, 130);
+    width: 130px;
+}
+.oneright a:hover{
+    color: gray;
+}
+.cardtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px gray;
+    width: 920px;
+    height: 380px;
+    margin: 35px;
+    margin-top: 55px;
+    padding: 15px;
+}
+.twohead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+.twohead a{
+    text-decoration: none;
+}
+.tleft p{
+    font-size: 23px;
+    color: grey;
+}
+.timebutton{
+    border-radius: 15px;
+    width: 140px;
+    height: 45px;
+    box-shadow: 2px 2px 8px gray;
+}
+.timebutton:hover{
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(255, 186, 130);
+}
+.timebuttonp{
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.now{
+    color: black;
+}
+.twomain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 5px;
+    width: 100%;
+    height: auto;
+}
+.twomain a{
+    text-decoration: none;
+}
+.mcard{
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mcard:hover{
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(255, 186, 130);
+}
+.mcard img, .mcard b{
+    opacity: 0.3;
+    color: black;
+}
+.twofoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 5px;
+    width: 100%;
+    height: auto;
+}
+.fcard{
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fcard:hover{
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(255, 186, 130);
+}
+.fcard img{
+    opacity: 0.6;
+}
+.cardthree{
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px gray;
+    width: 380px;
+    height: 780px;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cdhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cdhead p{
+    font-size: 25px;
+    color: grey;
+    margin: 9px;
+    width: 80%;
+}
+.pizzacard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 120px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px gray;
+}
+.pizzacardin{
+    width: 90%;
+    height:90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.cardint b{
+    color: grey;
+}
+.cardint p{
+    color: gray;
+}
+.pizzacard img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
